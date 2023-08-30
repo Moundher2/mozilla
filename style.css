@@ -1,0 +1,43 @@
+.banner{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    height: 300px;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+.cell {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #a527d7;
+    box-shadow: 0 0 0 2px #a527d7;
+    line-height: 80px;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
+}
+#cellsContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: auto;
+}
+#restartButton{
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #a527d7;
+    color: white;
+    border: none;
+    transition: 500ms;
+}
+#restartButton:hover{
+    background-color: white;
+    color: #a527d7;
+    border: #a527d7 1px solid;
+}
